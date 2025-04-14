@@ -1,0 +1,160 @@
+body{
+	background-color:  #722F37 ;
+    margin: 0;
+    padding: 0;
+}
+ 
+.imm {
+      
+      border: 2px solid #333;        /* Bordure noire */
+      background-color: #F2D2BD;          /* Fond blanc */
+      max-width: 800px;                /* Largeur maximale du cadre */
+      margin: 20px auto;               /* Centre le cadre avec une marge en haut et en bas */
+      padding: 20px;                   /* Espace intérieur */
+      box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.2),  
+                  10px 10px 15px rgba(0, 0, 0, 0.2);  /* Optionnel : ombre pour plus de relief */
+    }
+#entete{
+  font-size: 1.5em;
+}
+
+#menub {
+   
+  
+  min-height: 100vh;
+  padding: 20px; /* Texte noir pour contraster */
+ margin-left: 160px; /* Laisse plus d’espace à gauche */
+  padding-left: 20px; /* Décale un peu le contenu */
+  border-left: 2px solid #555; /* Ajoute une ligne de séparation */
+}
+
+#menu{
+  float: left;
+  width: 150px;
+   
+         
+  margin: 20px auto;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu li {
+  border-bottom: 1px solid #444; /* Séparateur entre les liens */
+}
+
+#menu a {
+  display: block;
+  padding: 10px;
+   
+  text-decoration: none;
+}
+
+#menu1{
+  float: left;
+  width: 150px;
+   
+  
+}
+
+#menu1 ul {
+  list-style-type: none;
+}
+
+#menu1 li {
+  border-bottom: 1px solid #444; /* Séparateur entre les liens */
+}
+
+#menu1 a {
+  display: block;
+  padding: 10px;
+  
+  text-decoration: none;
+}
+#pied{
+    text-align: right;  /* Aligne le texte à droite */
+    margin-left: auto;  /* Pousse le contenu vers la droite */
+    margin-right: 20px; /* Ajuste l'espacement du bord droit */
+}
+
+
+
+td,th{
+  border: 1px solid black;
+  padding: 10px;
+ }
+
+ table{
+  width: 100%;
+  padding: 15px;
+  border-collapse: collapse;
+ }
+
+label {
+            display: inline-block;
+            width: 59px; 
+        }
+        input, select {
+             
+            width: 20%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .inline {
+            display: inline-block;
+            justify-content: space-between;
+        }
+         
+         
+        .inline input {
+             
+
+        }
+        .n input {
+            width: 10%;
+
+        }
+        .inl input {
+            width: 40%;
+        }
+        .no input{
+            width: 56%;
+            height: 70px;
+        }
+        .la   {
+              width: 40%;;
+        }
+        .le   {
+              width: 10%;;
+        }
+        .les  {
+              width: 50%;;
+        }
+        .newsletter {
+            display: inline-block;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .newsletter input {
+            width: auto;
+            margin-right: 10px;
+        }
+        button {
+            margin-top: 15px;
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+        }
